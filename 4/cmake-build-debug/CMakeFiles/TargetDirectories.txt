@@ -1,0 +1,3 @@
+/home/william/learn/c++/my_cpp_learn/4/cmake-build-debug/CMakeFiles/4.dir
+/home/william/learn/c++/my_cpp_learn/4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/william/learn/c++/my_cpp_learn/4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
