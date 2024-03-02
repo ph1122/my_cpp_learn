@@ -226,6 +226,102 @@ build 4: CXX_EXECUTABLE_LINKER__4_Debug CMakeFiles/4.dir/addpntrs.cpp.o CMakeFil
   TARGET_FILE = 4
   TARGET_PDB = 4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target addpntrs
+
+
+#############################################
+# Order-only phony target for addpntrs
+
+build cmake_object_order_depends_target_addpntrs: phony || CMakeFiles/addpntrs.dir
+
+build CMakeFiles/addpntrs.dir/addpntrs.cpp.o: CXX_COMPILER__addpntrs_unscanned_Debug /home/william/learn/c++/my_cpp_learn/4/addpntrs.cpp || cmake_object_order_depends_target_addpntrs
+  DEP_FILE = CMakeFiles/addpntrs.dir/addpntrs.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/william/learn/c++/my_cpp_learn/4/.
+  OBJECT_DIR = CMakeFiles/addpntrs.dir
+  OBJECT_FILE_DIR = CMakeFiles/addpntrs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target addpntrs
+
+
+#############################################
+# Link the executable addpntrs
+
+build addpntrs: CXX_EXECUTABLE_LINKER__addpntrs_Debug CMakeFiles/addpntrs.dir/addpntrs.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/addpntrs.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = addpntrs
+  TARGET_PDB = addpntrs.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gui
+
+
+#############################################
+# Order-only phony target for gui
+
+build cmake_object_order_depends_target_gui: phony || CMakeFiles/gui.dir
+
+build CMakeFiles/gui.dir/gui.cpp.o: CXX_COMPILER__gui_unscanned_Debug /home/william/learn/c++/my_cpp_learn/4/gui.cpp || cmake_object_order_depends_target_gui
+  DEP_FILE = CMakeFiles/gui.dir/gui.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/william/learn/c++/my_cpp_learn/4/.
+  OBJECT_DIR = CMakeFiles/gui.dir
+  OBJECT_FILE_DIR = CMakeFiles/gui.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gui
+
+
+#############################################
+# Link the executable gui
+
+build gui: CXX_EXECUTABLE_LINKER__gui_Debug CMakeFiles/gui.dir/gui.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/gui.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = gui
+  TARGET_PDB = gui.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arraynew
+
+
+#############################################
+# Order-only phony target for arraynew
+
+build cmake_object_order_depends_target_arraynew: phony || CMakeFiles/arraynew.dir
+
+build CMakeFiles/arraynew.dir/arraynew.cpp.o: CXX_COMPILER__arraynew_unscanned_Debug /home/william/learn/c++/my_cpp_learn/4/arraynew.cpp || cmake_object_order_depends_target_arraynew
+  DEP_FILE = CMakeFiles/arraynew.dir/arraynew.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/william/learn/c++/my_cpp_learn/4/.
+  OBJECT_DIR = CMakeFiles/arraynew.dir
+  OBJECT_FILE_DIR = CMakeFiles/arraynew.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arraynew
+
+
+#############################################
+# Link the executable arraynew
+
+build arraynew: CXX_EXECUTABLE_LINKER__arraynew_Debug CMakeFiles/arraynew.dir/arraynew.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/arraynew.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = arraynew
+  TARGET_PDB = arraynew.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -260,7 +356,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/william/learn/c++/my_cpp_learn/4/cmake-build-debug
 
-build all: phony 4
+build all: phony 4 addpntrs gui arraynew
 
 # =============================================================================
 # Built-in targets

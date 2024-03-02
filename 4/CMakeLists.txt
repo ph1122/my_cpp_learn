@@ -29,3 +29,7 @@ add_executable(4
         strtype4.cpp
         structur.cpp
         use_new.cpp)
+
+add_executable(addpntrs addpntrs.cpp)
+add_executable(gui gui.cpp)
+add_executable(arraynew arraynew.cpp)
