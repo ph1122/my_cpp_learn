@@ -5,12 +5,15 @@ int main()
     using namespace std;
     char ch;
     int count = 0;
-    cin.get(ch);
-    while (cin.fail() == false)
+//    cin.get(ch);
+//    while (cin.fail() == false)
+//    while (!cin.fail())
+//    while (cin.get(ch))
+    while (cin)
     {
         cout << ch;
         ++count;
-        cin.get(ch);
+//        cin.get(ch);
     }
     cout << endl << count << "characters read\n";
     return 0;
